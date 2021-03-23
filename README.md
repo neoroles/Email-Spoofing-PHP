@@ -98,7 +98,7 @@ are setup for testing purposes with a limited 100 emails per day, please do not 
 Host : smtp.sendgrid.net
 
 Username : apikey
-Password : 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
+Password : REMOVED AT REQUEST OF SENDGRID
 Port : 587
 ```   
 By using the provided test Api Key, you are required to read and agree to sendgrid.com's terms and conditions along with the user agreement on Anti Spam and Anti Abuse policy's.
@@ -137,7 +137,7 @@ try {
     $mail->Host       = 'smtp.sendgrid.net';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'apikey';
-    $mail->Password   = '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';
+    $mail->Password   = 'EXAMPLE_KEY';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
